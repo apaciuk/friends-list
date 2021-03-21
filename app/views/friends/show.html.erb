@@ -1,6 +1,7 @@
 <p id="notice"><%= notice %></p>
 <div class="uk-background-secondary uk-light uk-padding uk-panel">
       <h1 class="uk-heading-small"><%= @friend.first_name %> <%= @friend.last_name %></h1>
+      <p class="uk-text-lead"><%= @friend.email %></p>
     <hr />
 
 <%= link_to 'Edit', edit_friend_path(@friend), class: "uk-button uk-button-custom" %> 
