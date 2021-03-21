@@ -6,6 +6,10 @@ background-color: rgb(48, 180, 48);
 color: white;
 }
 .uk-button-custom {
-background-color: rgb(197, 74, 181);
+background-color: #c54ab5;
 color: white;
+}
+.uk-button-custom:hover,
+.uk-button-custom:focus {
+background-color:  #bb3faa;
 }
