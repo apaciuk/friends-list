@@ -21,4 +21,7 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* FAQ
+Q. Is this normal?
+
+A. Yes. This is perfectly normal.
