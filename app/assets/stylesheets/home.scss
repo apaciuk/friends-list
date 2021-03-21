@@ -1,7 +1,6 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-
 .uk-navbar-container {
 background-color: #242424!important;
 padding-left: 30px;
@@ -16,4 +15,7 @@ color:lightgray!important;
 }
 input.uk-search-input {
 border-color: gray!important;
+}
+thead.uk-dark {
+background-color:#242424;
 }
