@@ -2,5 +2,7 @@
 
 <%= render 'form', friend: @friend %>
 
-<%= link_to 'Show', @friend %> |
-<%= link_to 'Back', friends_path %>
+
+<%= link_to 'Show', @friend, class: "uk-button uk-button-primary" %> 
+<%= link_to 'Back', friends_path, class: "uk-button uk-button-secondary" %>
+
