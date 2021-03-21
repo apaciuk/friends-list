@@ -1,6 +1,5 @@
+git_source(:github) { |repo| "https://github.com/xhostcom{friendslist}.git" }
 
-git_source(:github) { |repo| "git@github.com:xhostcom{friendslist}.git" }
-# git_source(:github) { |repo| "https://github.com/xhostcom{friendslist}.git" }
 ruby '2.7.2'
 
 gem 'rails', '~> 6.1.3'
