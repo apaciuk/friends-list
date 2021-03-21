@@ -1,3 +1,5 @@
+source 'https://rubygems.org'
+
 git_source(:github) { |repo| "https://github.com/xhostcom{friendslist}.git" }
 
 ruby '2.7.2'
