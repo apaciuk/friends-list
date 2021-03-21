@@ -8,3 +8,7 @@ background-color: #242424!important;
 a.uk-navbar-item {
 color: gray!important;
 }
+a.uk-navbar-item:hover,
+a.uk-navbar-item:focus {
+color:lightgray;
+}
