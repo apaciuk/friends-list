@@ -1,0 +1,15 @@
+---
+application:
+  name: "friendslist"
+  project: "rails-friends-app"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "friends_prod"
+  version: "12"
+routers:
+- name: "main-friendslist"
+  routes:
+  - application_name: "friendslist"
+    paths:
+    - "/*"
