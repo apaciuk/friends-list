@@ -15,8 +15,10 @@
   <body>
   <%= render 'home/header' %>
   <div class="uk-container">
+  <% if notice %>
   <%= render 'layouts/alerts' %>
-    <%= yield %>
+  <% end %>
+  <%= yield %>
   </div>
     <%= render 'home/footer' %>
   </body>
