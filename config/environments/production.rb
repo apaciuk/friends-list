@@ -24,7 +24,7 @@ Rails.application.configure do
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
   config.hosts = "127.0.0.1"
-  config.hosts = "main-friends-wr7le49y8z1g6pul-gtw.qovery.io"
+
 
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
