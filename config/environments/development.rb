@@ -30,7 +30,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  config.hosts << "0.0.0.0"
+  config.hosts << "127.0.0.1"
 
 
 
