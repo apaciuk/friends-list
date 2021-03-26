@@ -30,6 +30,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
   config.hosts << "127.0.0.1"
+  config.hosts << "0.0.0.0"
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
