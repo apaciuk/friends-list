@@ -6,7 +6,7 @@ ruby '2.7.2'
 
 gem 'rails', '~> 6.1.3'
 
-gem 'pg', '~> 1.2.3'
+gem 'pg'
 
 gem 'puma', '~> 5.0'
 
@@ -18,7 +18,7 @@ gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.7'
 
-gem 'mimemagic', '~> 0.3.2'
+gem 'mimemagic', '~> 0.3.9'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
