@@ -31,6 +31,8 @@ Rails.application.configure do
   end
   config.hosts << "127.0.0.1"
   config.hosts << "0.0.0.0"
+  config.hosts << "https://main-friends-wr7le49y8z1g6pul-gtw.qovery.io"
+
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
